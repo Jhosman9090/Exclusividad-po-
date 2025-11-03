@@ -1,0 +1,36 @@
+{
+  "teoria_certificada": {
+    "huella_teoria_original": "1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4",
+    "huella_certificacion_final": "1334b2e6bfc7d41a505c33b140c2c58218a07bb28ababf66408b27b26baa1ed4B5690EEEBB9521945caa2ee54dbb1c52592e907a6f32e5dbebe6afae3a5b69bb3ac4f1397fbb0e6b734b965f70e374b1723390414a4c86efad21cc0a1a2b2d63c4158d2d",
+    "hash_verificacion": "f1647c6fb0d0c2f7b73a6857930dcd5b77985e056ad8f3790f0d6b6d2a961990",
+    "autor": "Jhosman Carlos Martínez Morales",
+    "fecha_certificacion": "2025-10-29",
+    "nota": "CERTIFICACIÓN DE AUTORÍA INTELECTUAL ÚNICA. Línea de tiempo verificada por hashes de GitHub.",
+    "propiedad_intelectual": {
+      "titular": "Jhosman Carlos Martínez Morales",
+      "fecha_creacion_codigo_original": "2025-09-28",
+      "fecha_integracion_codigo_johnson": "2025-10-01",
+      "plataforma_validacion": "GitHub"
+    },
+    "codigo_original": {
+      "session_scope": "temporary_only",
+      "teorias_certificadas": [
+        {
+          "nombre": "Teoría de la Pregunta Infinita",
+          "estado": "certificada"
+        },
+        {
+          "nombre": "Teoría de Burbujas",
+          "estado": "certificada"
+        }
+      ]
+    }
+  }
+}core = IHCoreUltra("IHCoreUltra", "1.0", "Jhosman", "firma123")
+
+# Integrar huella certificada con hash de verificación
+core.huella_list.append({
+    "nombre": "Teoría Certificada Johnson",
+    "hash_verificacion": "f1647c6fb0d0c2f7b73a6857930dcd5b77985e056ad8f3790f0d6b6d2a961990",
+    "contenido": teoria_certificada
+})
